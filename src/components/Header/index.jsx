@@ -14,8 +14,8 @@ export function Header(){
 
     const navigate = useNavigate()
 
+    
     const avatarURL = user.avatar ? `${api.defaults.baseURL}/files/${user.avatar}` : avatarPlaceholder
-
 
     function handleSignOut() {
         navigate("/")
